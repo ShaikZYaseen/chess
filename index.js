@@ -5,6 +5,9 @@ import { Server } from 'socket.io';
 import { Chess } from 'chess.js';
 import { fileURLToPath } from 'url';
 
+
+//server side code
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 

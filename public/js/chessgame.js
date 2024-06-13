@@ -2,7 +2,6 @@ const socket = io();
 const chess = new Chess();
 
 alert("Welcome to the game!");
-console.log("hello");
 
 const boardElement = document.querySelector(".chessboard");
 
