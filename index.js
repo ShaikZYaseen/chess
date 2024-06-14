@@ -66,6 +66,8 @@ app.get("/", (req, res) => {
     res.render("index");
 });
 
+
+//calling the server of https
 server.listen(8080, () => {
     console.log("Server is running on port 8080");
 });
